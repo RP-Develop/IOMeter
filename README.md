@@ -37,18 +37,14 @@ Zeigt die Antwort der Reading Abfrage.
 
 Zeigt die Antwort der StatusAbfrage.
 
-`get <name> ConfigProposal`
-
-Zeigt ein vollständig ausgefülltes Set zur Konfiguration eines MQTT2_CIENT und MQTT2_DEVICE, wie auch ein Vorschlag zur Konfiguration einer Bridge im Mosquitto.
-
 `attr <name> UpdateInterval`
 
-default = 0
+default = 0;
 Bei einem Wert >0 wird nach angegebener Zeit die Readings und Statuswerte von der Bridge geholt.
 
 `attr <name> expert`
 
-default = 0
+default = 0;
 Bei Wert 1, werden die alle Readings zusätzlich als OBIS Wert angezeigt-
 
 
