@@ -40,12 +40,12 @@ Zeigt die Antwort der StatusAbfrage.
 `attr <name> UpdateInterval`
 
 default = 0;
-Bei einem Wert >0 wird nach angegebener Zeit die Readings und Statuswerte von der Bridge geholt.
+Bei einem Wert >0 werden nach angegebener Zeit die Readings und Statuswerte von der Bridge geholt.
 
 `attr <name> expert`
 
 default = 0;
-Bei Wert 1, werden die alle Readings zusätzlich als OBIS Wert angezeigt-
+Bei Wert 1, werden die alle Readings zusätzlich als OBIS Wert angezeigt.
 
 
 ### Quellen
