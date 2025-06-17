@@ -13,7 +13,7 @@ use HttpUtils;
 use JSON;
 use Data::Dumper;
 
-use constant VERSION 			=> "v0.0.1";
+use constant VERSION 			=> "v0.0.2";
 
 use constant USERAGENT			=> "Fhem";
 
@@ -265,7 +265,7 @@ sub IOMeter_parseRequestAnswer {
 					readingsSingleUpdate($hash, 'state', 'connected', 1 );
 				}
 				else{
-					eadingsSingleUpdate($hash, 'state', 'disconnected', 1 );
+					readingsSingleUpdate($hash, 'state', 'disconnected', 1 );
 				}
 			}
 			else{
